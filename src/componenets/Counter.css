@@ -1,0 +1,53 @@
+.counter-container {
+  padding: 0 20px;
+  display: none;
+}
+
+.counter-container.open {
+  display: block;
+}
+
+small {
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+.count-cont {
+  margin: 10px 0;
+  display: flex;
+  gap: 8px;
+}
+
+.adult-cont p,
+.children-cont p,
+.count {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #333333;
+}
+
+.children-cont,
+.adult-cont {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.plus,
+.minus {
+  color: #828282;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) and (max-width: 564px) {
+  .counter-container {
+    padding: 0 30px;
+    display: none;
+  }
+}

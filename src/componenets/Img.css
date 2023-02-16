@@ -1,0 +1,118 @@
+.img-file {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.none {
+  display: none;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+}
+
+.img-container {
+  width: 32%;
+  margin: 15px 0;
+}
+
+.image {
+  height: 269px;
+  left: 94px;
+  top: 209px;
+  border-radius: 24px;
+}
+
+.img-description {
+  padding: 5px;
+}
+
+.img-description-float {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.img-description-float1 {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.img-description-float2 {
+  display: flex;
+  align-self: baseline;
+  justify-content: flex-end;
+  gap: 5px;
+  width: 20%;
+}
+.img-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.host {
+  width: 100px;
+  height: 28px;
+  border: 1px solid #4f4f4f;
+  border-radius: 12px;
+  align-self: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.type {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+.rating {
+  color: #eb5757;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) and (max-width: 1167px) {} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) and (max-width: 959px) {} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 735px) {
+  .img-container {
+    width: 100%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (max-width: 564px) {
+  .img-file {
+    flex-flow: column;
+  }
+
+  .img-container {
+    width: 100%;
+    margin: 18px 0;
+  }
+}

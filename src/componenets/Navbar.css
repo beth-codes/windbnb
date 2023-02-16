@@ -1,0 +1,69 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  border-radius: 16px;
+  width: 290px;
+  height: 55px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f2f2f2;
+}
+
+.dropdown-container.opens {
+  display: flex;
+}
+
+small {
+  align-self: center;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) and (max-width: 1167px) {} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) and (max-width: 959px) {} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) and (max-width: 735px) {} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (max-width: 564px) {
+  .nav-container {
+    flex-flow: column;
+    padding: 25px 0;
+  }
+
+  .dropdown {
+    margin: 20px 0;
+    align-self: center;
+    gap: 0px;
+    width: 80%;
+  }
+}

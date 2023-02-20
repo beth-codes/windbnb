@@ -1,6 +1,6 @@
-<!-- Please update value in the {}  -->
+<!-- Please update value in the {}  --> 
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{windbnb}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://wiind-bnb.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/beth-codes/windbnb">
       Solution
     </a>
     <span> | </span>
@@ -51,8 +51,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTM]
+- [CSS]
+- [Figma]
 
 ## Features
 
